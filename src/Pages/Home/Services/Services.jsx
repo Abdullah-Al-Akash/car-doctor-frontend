@@ -20,7 +20,7 @@ const Services = () => {
         the majority have suffered alteration in some form, by injected humour,
         or randomised <br /> words which don't look even slightly believable.{" "}
       </p>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 pt-6">
         {services?.map((service) => (
           <ServiceCard key={service._id} service={service}></ServiceCard>
         ))}
