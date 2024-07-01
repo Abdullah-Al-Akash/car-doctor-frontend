@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <div className="carousel w-full h-[600px]">
       <div id="slide1" className="carousel-item relative w-full">
-        <img src={img1} className="w-full rounded-xl" />
+        <img src={img1} className="w-full rounded-xl object-cover" />
         <div className="text-white absolute flex items-center bg-gradient-to-r from-[#151515] to-[rgba(21,21,21,0)] h-full lg:ps-12 ps-4 rounded-xl">
           <div className="space-y-7 lg:w-1/3">
             <h2 className="text-6xl font-semibold">
@@ -41,7 +41,7 @@ const Banner = () => {
         </div>
       </div>
       <div id="slide2" className="carousel-item relative w-full">
-        <img src={img2} className="w-full  rounded-xl" />
+        <img src={img2} className="w-full  rounded-xl object-cover" />
         <div className="text-white absolute flex items-center bg-gradient-to-r from-[#151515] to-[rgba(21,21,21,0)] h-full lg:ps-12 ps-4 rounded-xl">
           <div className="space-y-7 lg:w-1/3">
             <h2 className="text-6xl font-semibold">
@@ -75,7 +75,7 @@ const Banner = () => {
         </div>
       </div>
       <div id="slide3" className="carousel-item relative w-full">
-        <img src={img3} className="w-full rounded-xl" />
+        <img src={img3} className="w-full rounded-xl object-cover" />
         <div className="text-white absolute flex items-center bg-gradient-to-r from-[#151515] to-[rgba(21,21,21,0)] h-full lg:ps-12 ps-4 rounded-xl">
           <div className="space-y-7 lg:w-1/3">
             <h2 className="text-6xl font-semibold">
@@ -109,7 +109,7 @@ const Banner = () => {
         </div>
       </div>
       <div id="slide4" className="carousel-item relative w-full">
-        <img src={img4} className="w-full rounded-xl" />
+        <img src={img4} className="w-full rounded-xl object-cover" />
         <div className="text-white absolute flex items-center bg-gradient-to-r from-[#151515] to-[rgba(21,21,21,0)] h-full lg:ps-12 ps-4 rounded-xl">
           <div className="space-y-7 lg:w-1/3">
             <h2 className="text-6xl font-semibold">
