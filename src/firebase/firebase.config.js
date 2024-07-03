@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: import.meta.env.Vite_apiKey,
-  authDomain: import.meta.env.Vite_authDomain,
-  projectId: import.meta.env.Vite_projectId,
-  storageBucket: import.meta.env.Vite_storageBucket,
-  messagingSenderId: import.meta.env.Vite_messagingSenderId,
-  appId: import.meta.env.Vite_appId
+  apiKey: "AIzaSyAvQywkzzadny70BB3rVdWH4MUn374ihIg",
+  authDomain: "card-doctorss.firebaseapp.com",
+  projectId: "card-doctorss",
+  storageBucket: "card-doctorss.appspot.com",
+  messagingSenderId: "625589098818",
+  appId: "1:625589098818:web:2d971e2e0004a75c4410db"
 };
 
 // Initialize Firebase
